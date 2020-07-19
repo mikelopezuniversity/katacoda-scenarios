@@ -3,26 +3,27 @@
   "description": "Learn to install Docker on Debian & Ubuntu",
   "difficulty": "Beginner",
   "time": "3-5 minutes",
+  "private": "true"
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Update APT Cache",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Upgrade System",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Download Install Script",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Make Script Executable",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Execute Script",
         "text": "step5.md"
       }
     ],
@@ -34,9 +35,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uimessage1": "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.\r\n"
   },
   "backend": {
     "imageid": "ubuntu1804"
+
   }
 }
