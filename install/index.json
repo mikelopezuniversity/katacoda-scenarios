@@ -2,7 +2,7 @@
   "title": "Install Docker on Debian & Ubuntu",
   "description": "Learn to install Docker on Debian & Ubuntu",
   "difficulty": "Beginner",
-  "time": "6 minutes",
+  "time": "3-5 minutes",
   "details": {
     "steps": [
       {
@@ -35,6 +35,7 @@
   },
   "environment": {
     "uilayout": "terminal"
+    "uimessage1": "\u001b[32mGreetings, earth creature!\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu1804"
