@@ -3,7 +3,7 @@
   "description": "Learn to install Docker on Debian & Ubuntu",
   "difficulty": "Beginner",
   "time": "3-5 minutes",
-  "private": "true"
+  "private": "true",
   "details": {
     "steps": [
       {
