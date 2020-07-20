@@ -3,10 +3,11 @@
   "description": "Module 1 Quiz",
   "difficulty": "Beginner",
   "time": "10 minutes",
+  "private": "true",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Module 1 Quiz",
         "text": "step1.md"
       }
     ],
@@ -18,7 +19,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uimessage1": "You know it is going to be a bad day when the letters in your alphabet soup spell D-I-S-A-S-T-E-R."
   },
   "backend": {
     "imageid": "ubuntu1804"
