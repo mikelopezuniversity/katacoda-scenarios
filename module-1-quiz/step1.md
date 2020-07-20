@@ -1,14 +1,16 @@
->>Q1: Enter the extract string test<<
-=== test
+>>Q1: True or False: Docker is an operating system<<
+[ ] True
+[*] False
 
->>Q2: Enter the string containing test<<
-=~= test
+>>Q2: True or False: Docker can be installed on Windows 7 systems.<<
+[ ] True
+[*] False
 
->>Q3: Multiple Choice <<
-[*] Correct
-[*] Correct
-[ ] Incorrect
+>>Q3: Select all systems you've learned to install Docker on. <<
+[*] CentOS 7
+[ ] Windows 7
+[*] Debian 9&10
 
->>Q4: Single Choice <<
-(*) Correct
-( ) Incorrect
+>>Q4: True or False: Root or sudo privileges are required to install Docker <<
+(*) True
+( ) False
