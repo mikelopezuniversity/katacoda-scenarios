@@ -3,6 +3,7 @@
   "description": "Learn to run your first Docker container",
   "difficulty": "Beginner",
   "time": "10 minutes",
+  "private": "true"
   "details": {
     "steps": [
       {
