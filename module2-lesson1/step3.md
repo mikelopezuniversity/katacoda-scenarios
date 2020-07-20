@@ -19,7 +19,7 @@ piping or keep looking up the name when trying to access the logs.
 Joe finds the best way to solve his problem of running Redis in the 
 background, with a name of redisHostPort on port 6379, is using the 
 following command: 
-`docker run -d --name redisHostPort -p 6379:6379 redis:latest`{execute}
+`docker run -d --name redisHostPort -p 6379:6379 redis:latest`{{execute}}
 
 <b>PROTIP</b>
 

@@ -16,7 +16,7 @@ the official Redis image stores logs and data into a /data directory.
 Any data which needs to be saved on the Docker Host, and not inside 
 containers, should be stored in /opt/docker/data/redis.
 
-The complete command to solve the task is `docker run -d --name redisMapped -p 6379 -v /opt/docker/data/redis:/data redis`{execute}
+The complete command to solve the task is `docker run -d --name redisMapped -p 6379 -v /opt/docker/data/redis:/data redis`{{execute}}
 
 Your assignment today, is to launch another Redis container.  Have it run in the background, bind container port 6379 to a random, available, host port, and mount the host directory /opt/docker/data/redis to the directory /data in the container.  You may name it whatever you wish.
 

@@ -5,7 +5,7 @@ the process. The host doesn't require any configuration, or dependencies.
 
 Joe knows he can find existing images at https://registry.hub.docker.com, 
 or by using the command docker search name. For example, to find an image 
-for Redis, the command would be, `docker search redis`{execute}.
+for Redis, the command would be, `docker search redis`{{execute}}.
 
 Using the search command, Joe has found that the Redis Docker Image is 
 called redis, and he wants to run the latest release. Since Redis is a 

@@ -1,5 +1,5 @@
 Congrats!  The launched container is now running in the background.  
-To list all running containers, use the `docker ps`{execute}} command.  
+To list all running containers, use the `docker ps`{{execute}} command.  
 It will list all running containers, the container ID, the container's 
 friendly name, the image used to start the container, and the uptime.
 

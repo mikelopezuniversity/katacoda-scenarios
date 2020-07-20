@@ -13,11 +13,11 @@ possible to have a single image that can be re-purposed in multiple ways.
 For example, the Debian image can either run OS commands, or run an 
 interactive bash prompt using /bin/bash.
 
-The command `docker run debian ps`{execute} launches a Debian container, 
+The command `docker run debian ps`{{execute}} launches a Debian container, 
 and executes the command ps to view all the processes running in the 
 container.
 
-Using `docker run -it debian bash` allows Joe to get access to a bash 
+Using `docker run -it debian bash`{{execute}} allows Joe to get access to a bash 
 shell inside of a container.
 
 Your assignment for today, is to access a Debian bash shell inside
