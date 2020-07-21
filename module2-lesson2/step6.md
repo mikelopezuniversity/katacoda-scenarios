@@ -10,7 +10,7 @@ server accessible, bind it to port 80 using -p 80:80
 
 For example:
 
-docker run -d -p 80:80 <image-id|friendly-tag-name>
+docker run -d -p 80:80 image-id|friendly-tag-name
 
 # Protip
 
