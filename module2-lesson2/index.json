@@ -32,6 +32,7 @@
       }
     ],
     "intro": {
+      "code": "nano Dockerfile",
       "text": "intro.md"
     },
     "finish": {
@@ -43,12 +44,12 @@
       ]
     }
   },
-
+  "files": ["Dockerfile","index.html"],
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "Did you hear about the crook who stole a calendar? He got 12 months."
   },
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "ubuntu1804"https://www.amazon.com/s?k=start+katacoda+scenario+with+file+open+in+editor&link_code=qs&sourceid=Mozilla-search&tag=mozilla-20
   }
 }
