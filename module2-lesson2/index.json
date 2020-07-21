@@ -44,7 +44,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split",
+    "uilayout": "editor-terminal",
     "uimessage1": "Did you hear about the crook who stole a calendar? He got 12 months."
   },
   "backend": {
