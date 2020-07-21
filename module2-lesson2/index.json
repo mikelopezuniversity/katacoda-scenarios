@@ -41,6 +41,7 @@
       "host01": [
         {"file": "index.html", "target": "~/"}
       ]
+    }
   },
 
   "environment": {
