@@ -1,17 +1,15 @@
 {
-  "title": "Build A Container Image",
-  "description": "Learn to build your own container image with a Dockerfile.",
+  "title": "Build Your Own Docker Image",
+  "description": "Learn to build your own Docker image with a Dockerfile",
   "difficulty": "Beginner",
-  "time": "15 minutes",
-  "details": {
+  "time": "12 minutes",
   "private": "true",
   "assets": {
-  "host01": [
+    "host01": [
       {"file": "index.html", "target": "/root"}
-  ]
-    }
-},
-
+    ]
+  },
+  "details": {
     "steps": [
       {
         "title": "Step 1",
@@ -36,7 +34,7 @@
       {
         "title": "Step 6",
         "text": "step6.md"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md"
@@ -46,8 +44,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uimessage1": "Did you hear about the crook who stole a calendar? He got twelve months."
+    "uilayout": "editor-terminal-split",
+    "uimessage1": "Did you hear about the crook who stole a calendar? He got 12 months."
   },
   "backend": {
     "imageid": "ubuntu1804"
