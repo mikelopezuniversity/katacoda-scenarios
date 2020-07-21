@@ -32,7 +32,6 @@
       }
     ],
     "intro": {
-      "code": "nano Dockerfile",
       "text": "intro.md"
     },
     "finish": {
