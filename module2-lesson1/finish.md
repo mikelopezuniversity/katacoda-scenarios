@@ -1,3 +1,3 @@
 In this lesson, you learned to deploy a Docker container from the command 
-line. In our next scenario, we will learn to deploy a static HTML page 
-in Docker!
+line using a pre-existing image. In our next scenario, we will learn to 
+build our own image! Stay tuned!
