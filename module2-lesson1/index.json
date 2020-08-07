@@ -39,7 +39,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uimessage1": "Did you hear about the crook that stole a calendar? He got 12 months"
   },
   "backend": {
     "imageid": "ubuntu1804"

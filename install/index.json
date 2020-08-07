@@ -36,7 +36,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.\r\n"
+    "uimessage1": "Greetings people of Earth.\r\n"
   },
   "backend": {
     "imageid": "ubuntu1804"
