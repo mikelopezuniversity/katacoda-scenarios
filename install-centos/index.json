@@ -3,32 +3,24 @@
   "description": "Learn to install Docker on CentOS based systems",
   "difficulty": "Beginner",
   "time": "5-7 minutes",
-  "private": "true", 
+  "private": "true",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Check Updates",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Upgrade System",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Add Dependencies",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Add Repository",
+        "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5 - Install Docker",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
       }
     ],
     "intro": {
@@ -40,7 +32,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Greetings, Earth creature!\r\n" 
+    "uimessage1": "Greetings, Earth creature!\r\n"
   },
   "backend": {
     "imageid": "centos"
