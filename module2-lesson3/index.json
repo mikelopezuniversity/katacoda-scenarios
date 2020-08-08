@@ -3,7 +3,7 @@
   "description": "Learn to Deploy a Nodejs Application in a Docker Container",
   "difficulty": "Beginner",
   "time": "10 minutes",
-  "private": "true",
+  "private": "false",
   "details": {
     "steps": [
       {
@@ -35,7 +35,9 @@
       "text": "finish.md"
     }
   },
-  "files": ["Dockerfile"],
+  "files": [
+    "Dockerfile"
+  ],
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "I ate a clock yesterday, it was very time-consuming."
