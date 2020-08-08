@@ -8,7 +8,6 @@
     "steps": [
       {
         "title": "Step 1",
-        "answer": "step1-answer.md",
         "text": "step1.md"
       },
       {
@@ -37,7 +36,7 @@
   },
   "files": ["Dockerfile"],
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "I ate a clock yesterday, it was very time-consuming."
   },
   "backend": {
