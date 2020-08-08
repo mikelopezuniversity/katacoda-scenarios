@@ -1,15 +1,14 @@
 {
-  "title": "Building Custom Images Continued",
-  "description": "Learn to Deploy a Nodejs Application in a Docker Container",
+  "title": "Build Your Own Docker Image",
+  "description": "Learn to build your own Docker image with a Dockerfile",
   "difficulty": "Beginner",
-  "time": "10 minutes",
-  "private": "false",
+  "time": "12 minutes",
+  "private": "true",
   "details": {
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "answer": "step1-answer.md"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -26,6 +25,10 @@
       {
         "title": "Step 5",
         "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
       }
     ],
     "intro": {
@@ -33,14 +36,17 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "index.html", "target": "~/"}
+      ]
     }
   },
-  "files": [
-    "Dockerfile"
-  ],
+  "files": ["Dockerfile"],
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": "I ate a clock yesterday, it was very time-consuming."
+    "uimessage1": "Did you hear about the crook who stole a calendar? He got 12 months."
   },
   "backend": {
     "imageid": "ubuntu1804"
