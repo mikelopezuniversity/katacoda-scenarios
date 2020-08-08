@@ -1,6 +1,6 @@
 {
-  "title": "Storing Your Images - The Docker Registry",
-  "description": "Learn to use a Docker registry.  A place to store your images",
+  "title": "Building Custom Images Continued",
+  "description": "Learn to Deploy a Nodejs Application in a Docker Container",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "private": "true",
@@ -8,6 +8,7 @@
     "steps": [
       {
         "title": "Step 1",
+        "answer": "step1-answer.md",
         "text": "step1.md"
       },
       {
@@ -21,6 +22,10 @@
       {
         "title": "Step 4",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -31,7 +36,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "I ate a clock yesterday, it was very time-consuming."
   },
   "backend": {
