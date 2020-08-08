@@ -37,7 +37,7 @@
   },
   "files": ["Dockerfile"],
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal",
     "uimessage1": "I ate a clock yesterday, it was very time-consuming."
   },
   "backend": {
