@@ -25,10 +25,6 @@
       {
         "title": "Step 5",
         "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
       }
     ],
     "intro": {
@@ -36,17 +32,11 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "index.html", "target": "~/"}
-      ]
-    }
   },
   "files": ["Dockerfile"],
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": "Did you hear about the crook who stole a calendar? He got 12 months."
+    "uimessage1": "I ate a clock yesterday, it was quite time-consuming."
   },
   "backend": {
     "imageid": "ubuntu1804"
