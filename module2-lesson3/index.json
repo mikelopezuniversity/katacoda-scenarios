@@ -1,45 +1,44 @@
 {
-  "title": "Build Your Own Docker Image",
-  "description": "Learn to build your own Docker image with a Dockerfile",
+  "title": "Building Custom Docker Images Continued",
+  "description": "Learn to Deploy a Nodejs Application in a Docker Container",
   "difficulty": "Beginner",
-  "time": "12 minutes",
+  "time": "10 minutes",
   "private": "true",
   "details": {
     "steps": [
-       {
+      {
         "title": "Step 1",
         "text": "step1.md",
-       },
-       {
+        "answer": "step1-answer.md"
+      },
+      {
         "title": "Step 2",
-	"text": "step2.md"
-       },
-       {
-	"title": "Step 3",
-	"text": "step3.md"
-       },
-       {
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
         "title": "Step 4",
-	"text": "step4.md"
-       },
-       {
+        "text": "step4.md"
+      },
+      {
         "title": "Step 5",
-	"text": "step5.md"
-       }
-     ],
-     "intro": {
-       "text": "intro.md"
-     },
-     "finish": {
-	"text": "finish.md"
-  },
-  "files": ["Dockerfile"],
-  "environment": {
-    "uilayout": "editor-terminal",
-    "uimessage1": "I ate a clock yesterday, it was quite time-consuming."
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
     },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
   "backend": {
     "imageid": "ubuntu1804"
-    }
   }
 }
