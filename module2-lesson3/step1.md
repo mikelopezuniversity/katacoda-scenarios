@@ -17,6 +17,6 @@ to our application.
 
 # Task: Define Base Environment
 
-Set the FROM <image>:<tag>, RUN <command>, and WORKDIR <directory> on separate
+Set the FROM image:tag, RUN command, and WORKDIR directory on separate
 lines to configure the base environment for deploying your application.
 
