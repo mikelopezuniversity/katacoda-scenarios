@@ -37,8 +37,9 @@
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "I ate a clock yesterday, it was quite time-consuming."
-  },
+    },
   "backend": {
     "imageid": "ubuntu1804"
+    }
   }
 }
