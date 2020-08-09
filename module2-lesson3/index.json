@@ -3,6 +3,7 @@
   "description": "Learn to Deploy a Nodejs Aplication in a Docker Container",
   "difficulty": "Beginner",
   "time": "10 minutes",
+  "private": "true",
   "details": {
     "steps": [
       {
@@ -34,7 +35,22 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Makefile", "target": "~/"},
+        {"file": "app.js", "target": "~/"},
+        {"file": "www", "target": "~/bin/"},
+        {"file": "package.json", "target": "~/"},
+        {"file": "style.css", "target": "~/public/stylesheets/"},
+        {"file": "index.js", "target": "~/routes/"},
+        {"file": "users.js", "target": "~/routes/"},
+        {"file": "error.jade", "target": "~/views/"},
+        {"file": "index.jade", "target": "~/views/"},
+        {"file": "layout.jade", "target": "~/views/"}
+      ]
     }
+
   },
   "files": ["Dockerfile"],
   "environment": {
