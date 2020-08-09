@@ -1,0 +1,6 @@
+sh -c "mkdir ~/bin/"
+sh -c "mkdir -p ~/public/images/"
+sh -c "mkdir -p ~/public/javascripts/"
+sh -c "mkdir -p ~/public/stylesheets/"
+sh -c "mkdir -p ~/routes/"
+sh -c "mkdir -p ~/views/"
