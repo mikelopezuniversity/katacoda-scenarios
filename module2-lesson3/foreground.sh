@@ -1,0 +1,1 @@
+echo "The URL to access Port 3000 is [[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]"
