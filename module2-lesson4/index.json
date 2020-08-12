@@ -1,0 +1,66 @@
+{
+  "title": "Multi-Stage Builds",
+  "description": "Learn Why and How to Build Your Image With Multi-Stage Builds",
+  "difficulty": "Beginner",
+  "time": "10 to 12 minutes",
+  "private": "true",
+  "details": {
+    "steps": [
+      {
+        "title": "Creating a Simple Go Web Application",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create the GitHub Repository",
+        "text": "step2.md"
+      },
+      {
+        "title": "Application File Contents",
+        "text": "step3.md"
+      },
+      {
+        "title": "Application File Contents Con't",
+        "text": "step4.md"
+      },
+      {
+        "title": "Build the App",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8",
+        "text": "step8.md"
+      },
+      {
+        "title": "Step 9",
+        "text": "step9.md"
+      },
+      {
+        "title": "Step 10",
+        "text": "step10.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-env.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "To be, or not to be? That is the question",
+    "hideHiddenFiles": "true"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}
