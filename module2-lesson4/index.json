@@ -11,31 +11,31 @@
         "text": "step1.md"
       },
       {
-        "title": "Create the GitHub Repository",
+        "title": "Clone the GitHub Repository",
         "text": "step2.md"
       },
       {
-        "title": "Application File Contents",
+        "title": "Environment Preperation",
         "text": "step3.md"
       },
       {
-        "title": "Application File Contents Con't",
+        "title": "The GO File",
         "text": "step4.md"
       },
       {
-        "title": "Build the App",
+        "title": "The Test_Main.go File",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "View and Conf Files",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Build the Application",
         "text": "step7.md"
       },
       {
-        "title": "Step 8",
+        "title": "Docker During Development",
         "text": "step8.md"
       },
       {
