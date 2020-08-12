@@ -16,6 +16,9 @@ Go back to the top level of your project:
 
 `cd ..`{{execute}}
 
+`touch Dockerfile`{{execute}}
+`Dockerfile`{{open}}
+
 The following Dockerfile should satisfy the above requirements.
 <pre class="file" data-filename="Dockerfile" data-target="prepend">
 FROM golang:1.14
