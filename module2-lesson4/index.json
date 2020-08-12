@@ -7,15 +7,15 @@
   "details": {
     "steps": [
       {
-        "title": "Creating a Simple Go Web Application",
+        "title": "Build a Simple GO Web Application",
         "text": "step1.md"
       },
       {
-        "title": "Clone the GitHub Repository",
+        "title": "Dockerize the Application",
         "text": "step2.md"
       },
       {
-        "title": "Environment Preperation",
+        "title": "Large Build",
         "text": "step3.md"
       },
       {
@@ -25,7 +25,7 @@
       {
         "title": "The Test_Main.go File",
         "text": "step5.md"
-      },
+          },
       {
         "title": "View and Conf Files",
         "text": "step6.md"
@@ -53,12 +53,24 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "app.conf", "target": "~/go-web-docker/src/conf"},
+        {"file": "Dockerfile", "target": "~/go-web-docker"},
+        {"file": "Dockerfile.deploy", "target": "~/go-web-docker"},
+        {"file": "invalid-route.html", "target": "~/go-web-docker/src/views"},
+        {"file": "main.go", "target": "~/go-web-docker/src"},
+        {"file": "main_test.go", "target": "~/go-web-docker/src"},
+        {"file": "result.html", "target": "~/go-web-docker/src/views"}
+      ]
     }
   },
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "To be, or not to be? That is the question",
     "hideHiddenFiles": "true"
+
   },
   "backend": {
     "imageid": "ubuntu1804"

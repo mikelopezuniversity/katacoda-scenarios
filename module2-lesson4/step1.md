@@ -1,13 +1,12 @@
-We’ll create a simple web application in Go for demonstration purposes.   This 
-application, which we’ll call MathApp, will:
+Before we Dockerize our app, we will build it just to make sure everything is
+working as expected.
 
-    Expose routes for different mathematical operations,
-    Use HTML templates for views,
-    Use a configuration file to customize the application, and
-    Include tests for selected functions.
+`go mod init github.com/mikelopezuniversity/go-web-docker`{{execute}}
 
-Visiting /sum/3/6 will show a page with the result of adding 3 and 6. Likewise, 
-visiting /product/3/6 will show a page with the product of 3 and 6.
+`go mod download`{{execute}}
 
-In this lesson, we used the Beego framework. Note that you can use any 
-framework (or none at all) for your application.
+`go mod vendor`{{execute}}
+
+`go mod verify`{{execute}}
+
+`go build`{{execute}}
