@@ -1,0 +1,39 @@
+{
+  "title": "Introduction to Virtual Environment",
+  "description": "Learn to Use the Virtual Environment",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "private": "true",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "~/"}
+      ]
+    }
+  },
+  "files": ["somefile.txt"],
+  "environment": {
+    "hideHiddenFiles": "true",
+    "uilayout": "editor-terminal",
+    "uimessage1": "Welcome, creature of Earth to Docker 101's Virtual Environment"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}
