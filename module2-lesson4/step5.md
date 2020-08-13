@@ -1,36 +1,19 @@
-`touch main_test.go`{{execute}}
+Now it is time to build, and run our application.
 
-`main_test.go`{{open}}
+`docker build \
+    -t mathapp-prod \
+    -f Dockerfile.deploy .`{{execute}}
 
-The file needs the following content:
+Lets take a closer look at what this command does:
+  - docker build - build an image from a Dockerfile
+  - -t mathapp-prod - name the built image mathapp-prod
+  - -f Dockerfile.deploy - The name (and optionally the location) of the Dockerfile
+to use to build the image.
 
-<pre class="file" data-filename="main_test.go" data-target="append">
-// main_test.go
+Now it is time to run the container.  The following command will accomplish 
+this.
 
-package main
+`docker run -it -p 8010:8010 mathapp-prod`{{execute}}
 
-import "testing"
-
-func TestSum(t *testing.T) {
-    if add(2, 5) != 7 {
-        t.Fail()
-    }
-    if add(2, 100) != 102 {
-        t.Fail()
-    }
-    if add(222, 100) != 322 {
-        t.Fail()
-    }
-}
-
-func TestProduct(t *testing.T) {
-    if multiply(2, 5) != 10 {
-        t.Fail()
-    }
-    if multiply(2, 100) != 200 {
-        t.Fail()
-    }
-    if multiply(222, 3) != 666 {
-        t.Fail()
-    }
-}
+Notice we don't map any directories.  That is because all the source files are
+in the container.

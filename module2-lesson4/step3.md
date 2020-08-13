@@ -1,30 +1,15 @@
 # Step 2 – Building the Image
 
-Building this particular image as root can cause problems, so we need to add a
-user, add that user to Docker group, and finally become that user.  All this 
-is done with the following commands":
-
-`useradd someuser`{{execute}}
-
-`usermod -aG docker someuser`{{execute}}
-
-`su someuser`{{execute}}
-
-We can verify we've successfully become the new user with the following command:\
-
-`id`{{execute}}
-
-Now we are free to build our image with the following command:
 
 `docker build \
-         --build-arg USER_ID=$(id -u) \
-         --build-arg GROUP_ID=$(id -g) \
+         --build-arg USER_ID=1001 \
+         --build-arg GROUP_ID=1001 \
          -t mathapp .`{{execute}}
 
 Executing the above command will create an image named mathapp:
 
---build-arg: sets a build time variable. We’ll use it to make the user and 
-group IDs in your machine and the container match.
+--build-arg: sets a build time variable. We’ll use it to set the user and 
+group ID.
 
 -t mathapp: sets the tag name for the new image, we can reference the image later as mathapp:latest
     Don’t forget to type the last dot (.) in the command.
@@ -39,4 +24,9 @@ To see the list of images on your system, run the following command:
 Note that the exact names and number of images might vary. However, you should 
 see at least the golang and mathapp images in the list.
 
-
+Notice the size of our image.  1.13 GB!!!  The golang image alone is 810 MB! 
+What if we could compile our application, then get rid of all that unnecessary
+code?  That would make the image much smaller, wouldn't it? Well, we can! We
+use a multi-stage build.  The first stage contains everything necessary to
+compile our app.  The second stage just contains our app, and it's 
+configuration files.  This results in a much smaller, more portable image.
