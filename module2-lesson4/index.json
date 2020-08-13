@@ -70,6 +70,7 @@
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "To be, or not to be? That is the question",
+    "uieditorpath": "/root/go-web-docker/src",
     "hideHiddenFiles": "true"
   },
   "backend": {
